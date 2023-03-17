@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Alert } from 'react-native';
 export const authenticate = async (mode, email, password) => {
-  const URL = `https://identitytoolkit.googleapis.com/v1/accounts:${mode}?key=AIzaSyAmL1f7THCVqueh5C4YiidHD6G6jgWFo3E`;
+  const URL = `https://identitytoolkit.googleapis.com/v1/accounts:${mode}?key=AIzaSyAXxTWQyNaczBRIn6Hsd2PeRvXNvDZ_Adc`;
   try {
     const { data } = await axios.post(URL, {
       email,
